@@ -22,3 +22,9 @@ endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+
+
+function custom_function_for_portfolio_or_api() {
+    // Your custom function code goes here
+}
+
