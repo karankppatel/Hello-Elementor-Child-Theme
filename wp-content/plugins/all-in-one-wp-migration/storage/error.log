@@ -1,0 +1,6 @@
+May 13 2024 19:01:34
+{"type":8192,"message":"version_compare(): Passing null to parameter #2 ($version2) of type string is deprecated","file":"C:\\xampp\\htdocs\\Hello-Elementor\\wp-content\\plugins\\elementor\\core\\experiments\\manager.php","line":167}
+
+May 13 2024 19:01:36
+{"type":8192,"message":"version_compare(): Passing null to parameter #2 ($version2) of type string is deprecated","file":"C:\\xampp\\htdocs\\Hello-Elementor\\wp-content\\plugins\\elementor\\core\\experiments\\manager.php","line":167}
+

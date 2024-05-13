@@ -1,0 +1,63 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Style the form container */
+.wpcf7 {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Style form fields */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style submit button */
+.wpcf7 input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Change submit button color on hover */
+.wpcf7 input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style form messages */
+.wpcf7-response-output {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style error messages */
+.wpcf7-validation-errors {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style success message */
+.wpcf7-mail-sent-ok {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

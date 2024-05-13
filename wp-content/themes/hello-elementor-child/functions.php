@@ -19,12 +19,17 @@ if ( !function_exists( 'child_theme_configurator_css' ) ):
         wp_enqueue_style( 'chld_thm_cfg_child', trailingslashit( get_stylesheet_directory_uri() ) . 'style.css', array( 'hello-elementor','hello-elementor','hello-elementor-theme-style','hello-elementor-header-footer' ) );
     }
 endif;
-add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
+add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css');
 
 // END ENQUEUE PARENT ACTION
 
+function enqueue_weather_script() {
+    wp_enqueue_script('weather-script', get_stylesheet_directory_uri() . '/weather.js');
+}
+add_action('wp_enqueue_scripts', 'enqueue_weather_script');
 
-function custom_function_for_portfolio_or_api() {
-    // Your custom function code goes here
+function display_portfolio_items() {
+     return '<div class="hero-banner"></div>';
 }
 
+add_shortcode('hero_banner', 'display_portfolio_items');

@@ -1,0 +1,16 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Header CSS Code */
+#primary-menu ul {
+    display: flex;
+    padding: 0;
+    gap: 30px;
+    list-style-type: none;
+}
+header#masthead {
+    align-items: center;
+}
+.site-title a, #primary-menu .page_item a {
+    font-family: 'Poppins';
+}</style>
+<!-- end Simple Custom CSS and JS -->
