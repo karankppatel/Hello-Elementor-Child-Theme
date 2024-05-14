@@ -12,5 +12,9 @@ header#masthead {
 }
 .site-title a, #primary-menu .page_item a {
     font-family: 'Poppins';
+}
+header .weather-placeholder {
+	font-family: poppins;
+	color: #c36;
 }</style>
 <!-- end Simple Custom CSS and JS -->

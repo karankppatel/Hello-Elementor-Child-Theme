@@ -9,12 +9,17 @@ document.addEventListener("DOMContentLoaded", function() {
             const temperature = data.main.temp;
             const description = data.weather[0].description;
 
+            // Update temperature
+            const temperatureElement = document.querySelector('.weather-placeholder');
+            temperatureElement.innerHTML = `${temperature}°C`;
+
             // Update the hero banner with weather information
             const heroBanner = document.querySelector('.hero-banner');
             heroBanner.innerHTML = `
                 <h1>Weather in ${city}</h1>
                 <p>Temperature: ${temperature}°C</p>
                 <p>Description: ${description}</p>
+
             `;
         })
         .catch(error => console.error('Error fetching weather data:', error));
